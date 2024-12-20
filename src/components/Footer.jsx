@@ -4,7 +4,7 @@ import { RiMenu3Line } from "react-icons/ri";
 const Footer = () => {
   return (
     <div className="bg-[#DDDBD3] lg:h-screen w-full lg:flex-row flex-col flex px-5 lg:px-20 lg:py-[10rem]">
-      <div className="w-[65%] h-full flex flex-col gap-2">
+      <div className="w-[100%] lg:w-[65%] h-full flex flex-col gap-2">
         <h1 className='font-["Hatton"] lg:text-[3rem] text-3xl leading-normal tracking-tight'>
           Have an Idea? <br />
           Drop Me a Message!

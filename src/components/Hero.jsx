@@ -31,10 +31,10 @@ const Hero = () => {
 
   return (
     <div className='bg-[#DDDBD3] w-full min-h-screen px-8 py-6 pt-14 overflow-hidden'>
-        <div className='mt-[8rem]'>
+        <div className='lg:mt-[8rem] mt-[2rem]'>
             <h1 className='text-[3rem] lg:text-[2rem] mt-[4.4rem] font-["Hatton"] leading-snug'>FRONT-END <br />CODESMITH</h1>
         </div>
-        <div className='w-full lg:w-[80%] h-[250px] overflow-hidden relative mt-[4rem] mb-[4rem]'>
+        <div className='w-full lg:w-[80%] h-[250px] overflow-hidden relative lg:my-[4rem] my-[1rem]'>
         <div className='mt-1 absolute right-2 bottom-1 z-10'>
         <button onClick={handleMuteUnmute}>
             {isMuted ? <IoVolumeMute className='text-[#4D4D4D] text-2xl'/> : <FaVolumeUp className='text-[#4D4D4D] text-2xl'/>            }
@@ -51,8 +51,8 @@ const Hero = () => {
         className="w-full h-full object-cover object-center"
         > </video>
         </div>
-        <div className='w-full flex flex-col lg:flex-row justify-between h-full gap-14 lg:gap-0 items-end lg:items-baseline'>
-            <div className='flex items-start font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] w-[50%] lg:w-[36%] gap-10'>
+        <div className='w-full flex flex-col lg:flex-row justify-between h-full gap-[1rem] lg:gap-0 items-end lg:items-baseline'>
+            <div className='flex items-start font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] w-[100%] lg:w-[36%] gap-10'>
                 {/* <p>Scroll</p> */}
                 <div ref={arrowDown} className='hidden lg:block'>
             <PiArrowDownThin className='text-2xl lg:text-8xl' />

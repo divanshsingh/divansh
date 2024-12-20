@@ -69,10 +69,10 @@ const About = () => {
   return (
     <div
       ref={aboutRef}
-      className="about w-full lg:min-h-screen flex flex-col justify-center lg:gap-0 gap-10 items-center bg-[#DDDBD3] px-8 py-20"
+      className="about w-full lg:min-h-screen flex flex-col justify-center lg:gap-0 gap-10 items-center bg-[#DDDBD3] px-8 py-[2rem] lg:py-[5rem]"
     >
       <div>
-        <p className='about-text text-[#4D4D4D] font-["Garamond"] lg:leading-tight leading-snug tracking-tight text-[2.5rem] lg:text-[5.5rem]'>
+        <p className='about-text text-[#4D4D4D] font-["Garamond"] lg:leading-tight leading-snug tracking-tight text-[2.2rem] lg:text-[5.5rem]'>
           I focus on <span className='span_text bg-[#DDDBD3] px-2'>DESIGN</span>, <span className='span_text bg-[#DDDBD3] px-2'>FUNCTIONALITY,</span> and <span className='span_text bg-[#DDDBD3] px-2'>SCALABILITY</span> — creating seamless, adaptable, and intuitive solutions to grow and adapt for the future.
         </p>
       </div>
