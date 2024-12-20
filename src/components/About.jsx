@@ -83,7 +83,7 @@ const About = () => {
       </div>
       <div className='w-full h-[70vh] lg:h-[80vh] mt-8 relative'>
         <div className='w-[80%] h-full top-[50%] lg:left-[18%] lg:translate-x-0 left-[50%] translate-x-[-50%] translate-y-[-50%] absolute'>
-        <img className='my_picture w-full h-full object-cover' src="/public/my-colored-pic.jpeg" alt="divansh" />
+        <img className='my_picture w-full h-full object-cover' src="/my-colored-pic.jpeg" alt="divansh" />
         </div>
       </div>
     </div>

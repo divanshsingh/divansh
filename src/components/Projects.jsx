@@ -24,17 +24,17 @@ const Projects = () => {
 
   const Projects = [
     {
-      src: "/public/yourcartProject.jpg",
+      src: "/yourcartProject.jpg",
       url: "https://yourcart-three.vercel.app/",
       name: "Your Cart"
     },
     {
-      src: "/public/nexorProject.jpg",
+      src: "/nexorProject.jpg",
       url: "https://nexor.vercel.app/",
       name: "Nexor"
     },
     {
-      src: "/public/cryptopulseProject.jpg",
+      src: "/cryptopulseProject.jpg",
       url: "https://cryptopulse-alpha.vercel.app/",
       name: "Crpyto Pulse"
     },
