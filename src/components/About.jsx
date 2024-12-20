@@ -38,7 +38,7 @@ const About = () => {
 
     const myPicture = aboutRef.current.querySelectorAll('.my_picture');
     gsap.to(myPicture, {
-      attr: {"src": "/public/my-blacked-pic.jpeg"},
+      attr: {"src": "/my-blacked-pic.jpeg"},
       duration: 0,
       scrollTrigger: {
         trigger: aboutRef.current,
