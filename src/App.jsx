@@ -6,7 +6,6 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import gsap from 'gsap';
-import FixedFooter from './components/FixedFooter'
 
 const App = () => {
   const mouseMove = (dets) => {
@@ -22,14 +21,12 @@ const App = () => {
     <>
     <div onMouseMove={mouseMove}>
       <div className="box w-[20px] h-[20px] rounded-full bg-[#666666] fixed"></div>
-    {/* <MouseFollower /> */}
     <Navbar />
     <Hero />
     <About />
     <Skills />
     <Projects />
     <Footer />
-    {/* <FixedFooter /> */}
     </div>
     </>
   )
