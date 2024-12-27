@@ -2,7 +2,7 @@ import React from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { useEffect, useRef } from "preact/hooks";
+import { useEffect } from "preact/hooks";
 gsap.registerPlugin(ScrollTrigger)
 
 
@@ -11,6 +11,7 @@ const Navbar = () => {
   useEffect(()=>{
     gsap.to(".navText", {
       y: -100,
+      // backgroundColor: white,
       ease: "power1",
       scrollTrigger: {
         trigger: ".main_div",
@@ -22,7 +23,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className='main_div w-full flex justify-between z-10 items-center font-["Helvetica_Neue_LT_Pro"] font-thin text-base fixed px-8 py-6'>
+    <div className='main_div w-full flex justify-between z-10 items-center font-helvetica font-thin text-base fixed px-8 py-6'>
       <div className="flex justify-between w-[50%]">
         <svg
           version="1.0"
@@ -66,11 +67,10 @@ const Navbar = () => {
           opportunity
         </p>
       </div>
-      <RiMenu3Line className="text-2xl md:hidden text-[#4D4D4D]" />
       <nav className="md:flex hidden text-sm gap-3 text-[#4D4D4D]">
-        <p className="navText">About,</p>
-        <p className="navText">Work,</p>
-        <p className="navText">Contact,</p>
+        <p className="navText"><a href="#about">About,</a></p>
+        <p className="navText hover:scale-125"><a href="#work">Work,</a></p>
+        <p className="navText"><a href="#contact">Contact,</a></p>
       </nav>
     </div>
   );

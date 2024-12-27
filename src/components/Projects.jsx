@@ -45,9 +45,9 @@ const Projects = () => {
   ]
 
   return (
-    <div className='bg-[#DDDBD3] w-full min-h-[100vh] px-8 py-6'>
+    <div id='work' className='bg-[#DDDBD3] w-full min-h-[100vh] px-8 py-6'>
       <div className='projects w-full lg:h-[90vh] flex lg:flex-row flex-col relative bg-[#fbf9f0] overflow-hidden'>
-        <h2 className='absolute font-["Hatton"] text-[2rem] leading-snug lg:text-[3rem] text-[#0E0E0C] lg:right-64 lg:pl-0 pl-10 top-20 z-10'>
+        <h2 className='absolute font-hatton text-[2rem] leading-snug lg:text-[3rem] text-[#0E0E0C] lg:right-64 lg:pl-0 pl-10 top-20 z-10'>
           PROJECTS THAT <br /> MAKE IMPACT
         </h2>
        {Projects.map((project, index) => (

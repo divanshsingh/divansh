@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Hatton';
+    src: url('/fonts/Hatton.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro';
+    src: url('/fonts/HelveticaNeueLTPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garamond';
+    src: url('/fonts/Garamond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

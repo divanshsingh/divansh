@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <div className='bg-[#DDDBD3] w-full min-h-screen px-8 py-6 pt-14 overflow-hidden'>
         <div className='lg:mt-[8rem] mt-[2rem]'>
-            <h1 className='text-[3rem] lg:text-[2rem] lg:mt-[4.4rem] mt-0 font-["Hatton"] leading-snug'>FRONT-END <br />CODESMITH</h1>
+            <h1 className='text-[3rem] lg:text-[2rem] lg:mt-[4.4rem] mt-0 font-hatton leading-snug'>FRONT-END <br />CODESMITH</h1>
         </div>
         <div className='w-full lg:w-[80%] h-[250px] overflow-hidden relative lg:my-[4rem] my-[1rem]'>
         <div className='mt-1 absolute right-2 bottom-1 z-10'>
@@ -52,14 +52,14 @@ const Hero = () => {
         > </video>
         </div>
         <div className='w-full flex flex-col lg:flex-row justify-between h-full gap-[1rem] lg:gap-0 items-end lg:items-baseline'>
-            <div className='flex items-start font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] w-[100%] lg:w-[36%] gap-10'>
+            <div className='flex items-start font-helvetica text-[#4D4D4D] w-[100%] lg:w-[36%] gap-10'>
                 {/* <p>Scroll</p> */}
                 <div ref={arrowDown} className='hidden lg:block'>
             <PiArrowDownThin className='text-2xl lg:text-8xl' />
                 </div>
             <p className='text-[0.7] lg:text-[0.5rem] lg:text-sm'>I support designer and developer with creative mind</p>
                 </div>
-                <h2 className=' right-0 text-[3rem] lg:text-[2rem] lg:mt-10 font-["Hatton"] pt-3 lg:pt-0 leading-none text-right'>DIVANSH SINGH</h2>
+                <h2 className=' right-0 text-[3rem] lg:text-[2rem] lg:mt-10 font-hatton pt-3 lg:pt-0 leading-none text-right'>DIVANSH SINGH</h2>
         </div>
     </div>
   )

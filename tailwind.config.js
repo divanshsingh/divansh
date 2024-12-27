@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        hatton: ['Hatton', 'sans-serif'],
+        helvetica: ['Helvetica Neue LT Pro', 'sans-serif'],
+        garamond: ['Garamond', 'serif'],
+    },
+    },
   },
   plugins: [],
 };

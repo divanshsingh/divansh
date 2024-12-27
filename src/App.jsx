@@ -20,7 +20,7 @@ const App = () => {
   return (
     <>
     <div onMouseMove={mouseMove}>
-      <div className="box w-[20px] h-[20px] rounded-full bg-[#666666] fixed"></div>
+      <div className="box w-[40px] h-[40px] z-50 rounded-full bg-transparent border-[1px] border-black fixed"></div>
     <Navbar />
     <Hero />
     <About />
