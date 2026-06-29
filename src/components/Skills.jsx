@@ -41,7 +41,7 @@ const Skills = () => {
               </div>
               <div className='third h-[8rem] lg:h-[10rem] w-[8rem] lg:w-full'>
                   <h3 className='font-["Helvetica_Neue_LT_Pro"] text-[1rem] leading-[1.5rem] lg:text-3xl text-right text-[#0E0E0C] mb-8'>Frameworks and Libraries</h3>
-                <p className='font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] lg:text-[0.5rem] text-[0.73rem] leading-[1rem] lg:text-sm mb-8'>React.js, Redux, Tailwind, GSAP</p>
+                <p className='font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] lg:text-[0.5rem] text-[0.73rem] leading-[1rem] lg:text-sm mb-8'>React.js, Next.js, Redux, Tailwind, GSAP</p>
               </div>
               <div className='fourth h-[8rem] lg:h-[10rem] w-[8rem] lg:w-full'>
                   <h3 className='font-["Helvetica_Neue_LT_Pro"] text-[1rem] leading-[1.5rem] lg:text-3xl text-right text-[#0E0E0C] mb-8'>Version Control</h3>
@@ -53,7 +53,7 @@ const Skills = () => {
               </div>
               <div className='six h-[8rem] lg:h-[10rem] w-[8rem] lg:w-full'>
                   <h3 className='font-["Helvetica_Neue_LT_Pro"] text-[1rem] leading-[1.5rem] lg:text-3xl text-right text-[#0E0E0C] mb-8'>Backend</h3>
-                <p className='font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] lg:text-[0.5rem] text-[0.73rem] leading-[1rem] lg:text-sm mb-8'>Node.js, Express.js MongoDB</p>
+                <p className='font-["Helvetica_Neue_LT_Pro"] text-[#4D4D4D] lg:text-[0.5rem] text-[0.73rem] leading-[1rem] lg:text-sm mb-8'>Node.js, Express.js, MongoDB</p>
               </div>
             </div>
         </div>

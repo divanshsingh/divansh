@@ -71,6 +71,7 @@ const Navbar = () => {
         <p className="navText"><a href="#about">About,</a></p>
         <p className="navText hover:scale-125"><a href="#work">Work,</a></p>
         <p className="navText"><a href="#contact">Contact,</a></p>
+        <p className="navText"><a href="/resume.pdf" target="_blank">Resume</a></p>
       </nav>
     </div>
   );
